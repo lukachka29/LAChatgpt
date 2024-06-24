@@ -42,7 +42,6 @@ function generateResponse(userInput) {
         "welches datum haben wir": `Heute ist der ${getGermanDate()}.`,
         "wie heißt du": "Ich bin ChatGPT, dein persönlicher Assistent.",
         "kennst du alex": "Ja, Alex ist ein Hund."
-        "Kennst du ilian": "Ja, ilian liebt mcs."
         "Kennst du abdul": "Ja, abdul black."
         "kennst du leys": "Ja, leys liebt mottorad ."
         "Kennst du taha": "Ja, taha ist ein freund von abdul."

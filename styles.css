@@ -26,7 +26,7 @@ body {
     height: 400px;
     padding: 20px;
     overflow-y: scroll;
-    border-bottom: 1px solid #afacac;
+    border-bottom: 1px solid #ccc;
 }
 
 .input-container {

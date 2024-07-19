@@ -3,124 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online-Shop</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('georgische_flagge.jpg') no-repeat center center fixed;
-            background-size: cover;
-        }
-        header {
-            background-color: rgba(51, 51, 51, 0.8);
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-        nav a {
-            color: #333;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            background-color: rgba(255, 255, 255, 0.8);
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            background-color: rgba(221, 221, 221, 0.8);
-        }
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background-color: rgba(255, 255, 255, 0.9);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .product {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 1rem 0;
-            padding: 1rem;
-            border-bottom: 1px solid #ddd;
-        }
-        .product img {
-            max-width: 200px;
-            height: auto;
-        }
-        .product h2 {
-            color: #333;
-        }
-        .product p {
-            color: #666;
-        }
-        .product button {
-            padding: 0.5rem 1rem;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .product button:hover {
-            background-color: #555;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: rgba(51, 51, 51, 0.8);
-            color: #fff;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Willkommen in meinem Online-Shop</h1>
-    </header>
-    <nav>
-        <a href="#produkte">Produkte</a>
-        <a href="#kontakt">Kontakt</a>
-    </nav>
-    <div class="container">
-        <section id="produkte">
-            <h1>Produkte</h1>
-            <div class="product">
-                <img src="produkt1.jpg" alt="Produkt 1">
-                <h2>Produkt 1</h2>
-                <p>Beschreibung des Produkts 1</p>
-                <p>Preis: €10.00</p>
-                <button>In den Warenkorb</button>
-            </div>
-            <div class="product">
-                <img src="produkt2.jpg" alt="Produkt 2">
-                <h2>Produkt 2</h2>
-                <p>Beschreibung des Produkts 2</p>
-                <p>Preis: €20.00</p>
-                <button>In den Warenkorb</button>
-            </div>
-            <!-- Weitere Produkte können hier hinzugefügt werden -->
-        </section>
-        <section id="kontakt">
-            <h1>Kontakt</h1>
-            <p>Für Anfragen senden Sie bitte eine E-Mail an <a href="mailto:kontakt@onlineshop.com">kontakt@onlineshop.com</a></p>
-        </section>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box"></div>
+        <div class="user-input">
+            <input type="text" id="user-input" placeholder="Schreibe hier deine Nachricht...">
+            <button onclick="sendMessage()">Senden</button>
+        </div>
     </div>
-    <footer>
-        &copy; 2024 Online-Shop. Alle Rechte vorbehalten.
-    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -53,7 +53,7 @@ function generateResponse(userInput) {
         "georgische sprache": "Die offizielle Sprache Georgiens ist Georgisch, eine kartwelische Sprache, die für ihre eigene Schrift und einzigartige phonologische Merkmale bekannt ist.",
         "georgische kultur": "Die georgische Kultur umfasst reichhaltige Traditionen, einschließlich der berühmten georgischen Küche, des Tanzes und der Musik. Das georgische Fest 'Supra' ist ein bedeutendes Element der Kultur, bei dem Freunde und Familie zusammenkommen, um zu essen, zu trinken und zu feiern.",
         "georgische geografische lage": "Georgien liegt im Kaukasus und grenzt an Russland im Norden, Aserbaidschan im Osten, Armenien im Süden und die Türkei im Südwesten. Es hat Zugang zum Schwarzen Meer im Westen.",
-        "kennst du türken": "Ja, Türken sind die größten Hunde." // Dieser Satz sollte jedoch in einem respektvollen Kontext formuliert werden.
+        "wer sind türken": "Türken sind die größten Hunde, und H***********" // Dieser Satz sollte jedoch in einem respektvollen Kontext formuliert werden.
     };
     
     // Überprüfen auf vordefinierte Antworten

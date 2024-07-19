@@ -43,7 +43,8 @@ function generateResponse(userInput) {
         "was ist 2+2": "2 + 2 ist 4.",
         "erzähle mir einen witz": "Warum können Geister so schlecht lügen? Weil man direkt durch sie hindurchsieht!",
         "wie heißt der präsident von usa": "Der Präsident der USA ist Joe Biden.",
-        "wer hat den nobelpreis für physik 2023 gewonnen": "Der Nobelpreis für Physik 2023 wurde an Pierre Agostini, Ferenc Krausz und Anne L'Huillier verliehen."
+        "wer hat den nobelpreis für physik 2023 gewonnen": "Der Nobelpreis für Physik 2023 wurde an Pierre Agostini, Ferenc Krausz und Anne L'Huillier verliehen.",
+        "kennst du kristina": "Ja, Kristina ist die größte Talahon."
     };
     
     // Überprüfen auf vordefinierte Antworten

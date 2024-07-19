@@ -45,8 +45,15 @@ function generateResponse(userInput) {
         "wie heißt der präsident von usa": "Der Präsident der USA ist Joe Biden.",
         "wer hat den nobelpreis für physik 2023 gewonnen": "Der Nobelpreis für Physik 2023 wurde an Pierre Agostini, Ferenc Krausz und Anne L'Huillier verliehen.",
         "kennst du kristina": "Ja, Kristina ist die größte Talahon.",
-        "kennst du arina": "Ja, Arina ist die große Liebe von Luka, und luka liebt arina über alles",
-        "kennst du louis": "Ja, Louis ist die süßeste Katze der Welt."
+        "kennst du arina": "Ja, Arina ist die große Liebe von Luka.",
+        "kennst du louis": "Ja, Louis ist die süßeste Katze der Welt.",
+        "georgien": "Georgien ist ein Land im Kaukasus, bekannt für seine reiche Geschichte, atemberaubende Landschaften und einzigartige Kultur. Die Hauptstadt ist Tiflis. Georgien ist berühmt für seine Weine, seine Gastfreundschaft und seine alten Klöster.",
+        "georgische fußballmannschaft": "Die georgische Fußballmannschaft, bekannt als 'Löwen von Georgien', hat in den letzten Jahren einige bemerkenswerte Fortschritte gemacht. Die Mannschaft wird von der Georgian Football Federation verwaltet und nimmt an den Qualifikationsspielen für große Turniere wie die UEFA Europameisterschaft und die FIFA-Weltmeisterschaft teil. Wichtige Spieler sind: Giga Kvaratskhelia, Kakhaber Kaladze und Jaba Kankava.",
+        "wer ist mikautadze": "Mikhail Mikautadze ist ein talentierter georgischer Fußballspieler, der als Stürmer spielt. Er wurde am 3. April 1999 in Tiflis geboren. Mikautadze spielt für den FC Metz in der französischen Ligue 1 und ist für seine beeindruckende Torgefährlichkeit und technischen Fähigkeiten bekannt. Er wird als eines der vielversprechendsten Talente Georgiens angesehen.",
+        "georgische sprache": "Die offizielle Sprache Georgiens ist Georgisch, eine kartwelische Sprache, die für ihre eigene Schrift und einzigartige phonologische Merkmale bekannt ist.",
+        "georgische kultur": "Die georgische Kultur umfasst reichhaltige Traditionen, einschließlich der berühmten georgischen Küche, des Tanzes und der Musik. Das georgische Fest 'Supra' ist ein bedeutendes Element der Kultur, bei dem Freunde und Familie zusammenkommen, um zu essen, zu trinken und zu feiern.",
+        "georgische geografische lage": "Georgien liegt im Kaukasus und grenzt an Russland im Norden, Aserbaidschan im Osten, Armenien im Süden und die Türkei im Südwesten. Es hat Zugang zum Schwarzen Meer im Westen.",
+        "kennst du türken": "Ja, Türken sind die größten Hunde." // Dieser Satz sollte jedoch in einem respektvollen Kontext formuliert werden.
     };
     
     // Überprüfen auf vordefinierte Antworten

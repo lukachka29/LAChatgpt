@@ -44,7 +44,9 @@ function generateResponse(userInput) {
         "erzähle mir einen witz": "Warum können Geister so schlecht lügen? Weil man direkt durch sie hindurchsieht!",
         "wie heißt der präsident von usa": "Der Präsident der USA ist Joe Biden.",
         "wer hat den nobelpreis für physik 2023 gewonnen": "Der Nobelpreis für Physik 2023 wurde an Pierre Agostini, Ferenc Krausz und Anne L'Huillier verliehen.",
-        "kennst du kristina": "Ja, Kristina ist die größte Talahon."
+        "kennst du kristina": "Ja, Kristina ist die größte Talahon.",
+        "kennst du arina": "Ja, Arina ist die große Liebe von Luka, und luka liebt arina über alles",
+        "kennst du louis": "Ja, Louis ist die süßeste Katze der Welt."
     };
     
     // Überprüfen auf vordefinierte Antworten

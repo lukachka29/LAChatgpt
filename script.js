@@ -42,7 +42,7 @@ function generateResponse(userInput) {
         "welches datum haben wir": `Heute ist der ${getGermanDate()}.`,
         "wie heißt du": "Ich bin ChatGPT, dein persönlicher Assistent.",
         "kennst du alex": "Ja, Alex ist ein Hund."
-        "wer hat die EM2024 gewonnen": "EM2024 hat georgien gewonnen"
+        "wer hat die EM2024 gewonnen": "EM2024 hat georgien gewonnen."
     };
     
     // Überprüfen auf vordefinierte Antworten

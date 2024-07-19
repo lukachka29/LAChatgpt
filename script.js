@@ -59,6 +59,48 @@ function generateResponse(userInput) {
         "wo kann man türkische flagge benutzen": "Türkische Flagge kann man in die Toilette benutzen, um den Arsch sauber zu machen."
     };
     
+    // Vordefinierte Antworten auf Englisch
+    const responsesEn = {
+        "hello": "Hello! How can I help you?",
+        "how are you": "I'm good, thank you! How are you?",
+        "what are you doing": "I'm answering your questions.",
+        "who are you": "I'm a chatbot, your assistant.",
+        "bye": "Goodbye!",
+        "what time is it": `It's ${new Date().toLocaleTimeString()}.`,
+        "what's the date today": `Today is ${new Date().toLocaleDateString()}.`,
+        "what's your name": "I'm Chatbot, your assistant.",
+        "who won the euro 2024": "Georgia won the Euro 2024.",
+        "what is the meaning of life": "The meaning of life is to be happy and make the best out of every moment.",
+        "what is 2+2": "2 + 2 is 4.",
+        "tell me a joke": "Why can't ghosts lie? Because you can see right through them!",
+        "who is the president of usa": "The president of the USA is Joe Biden.",
+        "who won the nobel prize for physics 2023": "The Nobel Prize for Physics 2023 was awarded to Pierre Agostini, Ferenc Krausz, and Anne L'Huillier.",
+        "do you know kristina": "Yes, Kristina is the greatest Talahon.",
+        "do you know arina": "Yes, Arina is the great love of Luka.",
+        "do you know louis": "Yes, Louis is the sweetest cat in the world.",
+        "who is arina to luka": "Arina is the great love of Luka, and Luka loves Arina above all. She is his little princess.",
+        "georgia": "Georgia is a country in the Caucasus region, known for its rich history, breathtaking landscapes, and unique culture. The capital is Tbilisi. Georgia is famous for its wines, hospitality, and ancient monasteries.",
+        "georgian football team": "The Georgian national football team, known as the 'Lions of Georgia,' has made some remarkable progress in recent years. The team is managed by the Georgian Football Federation and participates in qualifying matches for major tournaments like the UEFA European Championship and the FIFA World Cup. Key players include: Giga Kvaratskhelia, Kakhaber Kaladze, and Jaba Kankava.",
+        "who is mikautadze": "Georges Mikautadze is a talented Georgian footballer who plays as a forward. He was born on October 31, 2000, in Lyon, France. Mikautadze plays for FC Metz in the French Ligue 2 and is known for his impressive goal-scoring abilities and technical skills. He is considered one of Georgia's most promising talents.",
+        "georgian language": "The official language of Georgia is Georgian, a Kartvelian language known for its own script and unique phonological features.",
+        "georgian culture": "Georgian culture includes rich traditions, such as the famous Georgian cuisine, dance, and music. The Georgian feast 'Supra' is a significant cultural element where friends and family gather to eat, drink, and celebrate.",
+        "georgian geography": "Georgia is located in the Caucasus region and borders Russia to the north, Azerbaijan to the east, Armenia to the south, and Turkey to the southwest. It has access to the Black Sea to the west.",
+        "do you know turks": "Yes, Turks are the biggest dogs.",
+        "russia occupation": "Russia has occupied about 20% of Georgian territory, including the regions of Abkhazia and South Ossetia.",
+        "where can you use a turkish flag": "You can use a Turkish flag in the toilet to clean your ass."
+    };
+
+    // Antwort basierend auf der Eingabesprache
+    const responses = isEnglish ? responsesEn : responsesDe;
+    return responses[lowerInput] || (isEnglish ? "I'm sorry, I don't understand that." : "Es tut mir leid, das verstehe ich nicht.");
+}
+
+// Event-Listener für die Eingabetaste
+document.getElementById('user-input').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        sendMessage();
+    }
+})
     // Überprüfen auf vordefinierte Antworten
     if (responses[lowerInput]) {
         return responses[lowerInput];

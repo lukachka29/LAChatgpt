@@ -81,3 +81,10 @@ function generateResponse(userInput) {
     // Standardantwort, falls keine passende Antwort gefunden wird
     return `Ich habe deine Frage "${userInput}" erhalten, kann sie aber zurzeit nicht beantworten. Bin aber dabei, mich zu verbessern.`;
 }
+
+// Funktion zum Umgang mit Enter-Taste
+function handleKeyDown(event) {
+    if (event.key === 'Enter') {
+        sendMessage();
+    }
+}

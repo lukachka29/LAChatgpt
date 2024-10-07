@@ -130,25 +130,5 @@ function handleKeyPress(event) {
         sendMessage();
     }
 }
-// Funktion zur Durchführung mathematischer Berechnungen
-function berechneMathe(benutzereingabe) {
-    // Entferne Leerzeichen aus der Eingabe
-    benutzereingabe = benutzereingabe.replace(/\s+/g, '');
-
-    try {
-        // Überprüfe, ob die Eingabe eine gültige mathematische Operation ist
-        const ergebnis = eval(benutzereingabe);
-        return `Das Ergebnis der Berechnung ${benutzereingabe} ist ${ergebnis}.`;
-    } catch (error) {
-        return "Entschuldigung, ich konnte diese Berechnung nicht verstehen. Bitte gib eine gültige mathematische Operation ein.";
-    }
-}
-
-// Funktion zur Generierung der Antwort
-async function generateResponse(userInput) {
-    // Überprüfung, ob der Benutzer eine mathematische Frage stellt
-    const matheKeywords = ["+", "-", "*", "/"];
-    if (matheKeywords.some(keyword => userInput.includes(keyword))) {
-        return berechneMathe(userInput);
     }
 document.getElementById('user-input').addEventListener('keypress', handleKeyPress);
